@@ -4,9 +4,9 @@ public class Main {
         System.out.print(cc);
         public int calculate() {
             try {
-                return 10 / 0; // Throws ArithmeticException
+                return 10 / 0;
             } finally {
-                return 42; // This "swallows" the exception!
+                return 42;
             }
         }
     } 
